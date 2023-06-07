@@ -1,0 +1,90 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating my first login page</title>
+</head>
+
+<body>
+
+    <style type="text/css">
+        body{
+            background-color: rgb(150, 150, 100);
+            color: whitesmoke;
+        }
+
+        h1{text-align: center;}
+
+        form{
+            border-radius: 12px;
+            width: 35rem;
+            margin: auto;
+            color: whitesmoke;
+            padding: 20px 25px;
+            border-radius: 12px;
+        }
+        input[type=text], input[type=password]{
+            width: 50%;
+            margin: 5px 0;
+            border-radius: 2px;
+            padding: 5px 6px;
+            box-sizing: border-box;
+        }
+
+        button {
+font-size: 18px;
+width: 100%;
+background-color: rgb(60, 139, 60);
+color: white;
+margin: 7px;
+border-radius: 5px;
+padding: 14px 20px;
+        }
+
+        button:hover {
+            opacity:0.6;
+            cursor: pointer;
+        }
+
+
+    </style>
+
+   <h1>Login with HTML and CSS</h1> 
+   <form action="">
+
+    <div class="headingscontainer">
+   <h3>Sign in</h3>
+    <p>Sign in with your Email and Password</p>
+</div>
+
+<div class="Main container">
+    <label for="Email">Email</label>
+    <input type="text" name="Email" id="Email">
+
+    <br><br>
+    <label for="Password">Password</label>
+    <input type="password" name="Password" id="Password">
+</div>
+
+<div class="Sub container">
+    <label for="Checkbox"><input type="checkbox" name="Remember me" id="Remember me">Remember me</label>
+</div>
+
+<br>
+<div class="forget password">
+    <label for="Forget password"><a href="#">Forget password</a></label>
+</div>
+
+<div>
+    <button type="submit">Login</button>
+      
+
+    <p class="Register">Not a member? <a href="#">Register here!</a></p>
+
+</div> 
+
+   
+</form>   
+</body>
+</html>
